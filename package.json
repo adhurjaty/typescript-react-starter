@@ -1,0 +1,38 @@
+{
+  "name": "typescript-react-starter",
+  "version": "1.0.0",
+  "description": "Starter code for react typescript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "typescript",
+    "starter",
+    "hello",
+    "world"
+  ],
+  "jest": {
+    "scriptPreprocessor": "./node_modules/ts-jest/preprocessor.js",
+    "globals": {
+      "__TS_CONFIG__": "tsconfig.json"
+    }
+  },
+  "author": "Anil Dhurjaty",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@types/jest": "^24.0.15",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs2": "^7.6.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
